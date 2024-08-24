@@ -2,13 +2,25 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    flex-wrap: wrap;
+    width: 800px;
+    height: 800px;
+    background-color: black;
+    padding: 0px;
+    margin: 0;
 }
 
-.grids {
-display: flex;
-flex-wrap: wrap;
-height: 16px;
-width: 16px;
-border-color: black;
+.grid-item {
+height: 50px;
+width: 50px;
+}
+
+.buttons{
+   padding: 12px;
+   display: flex;
+   gap: 10px;
+}
+
+.button {
+    padding: 5px;
 }
