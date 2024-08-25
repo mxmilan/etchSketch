@@ -47,6 +47,21 @@ scndButton.addEventListener('click', () => {
     ranColor();
 });
 
+function whiteColor() {
+    const gridItems = document.querySelectorAll('.grid-item');
+
+    gridItems.forEach(item => {
+        item.addEventListener('mouseover', () => {
+            item.style.backgroundColor = "white"; 
+        });
+    });
+}
+
+const thrdButton = document.querySelector(".thirdButton");
+thrdButton.addEventListener('click', () => { 
+    whiteColor(); 
+});
+
 
 
     
